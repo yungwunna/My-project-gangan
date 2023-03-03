@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../New folder/Balablu"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My project gangan"
+	}
+}
