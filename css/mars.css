@@ -3,15 +3,14 @@
     padding: 0;
     font-family: sans-serif;
 }
-
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(spacex.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("/Images/mars.jpg");
     background-size: cover;
     background-position: center;
 }
-.content{
+.content h3{
     width: 100%;
     position: absolute;
     top: 50%;
@@ -19,9 +18,13 @@
     text-align: center;
     color: gray;
 }
-.content h2{
-    font-size: 30px;
-    margin-top: 10px;
+.content h5{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: gray;
 }
 .navbar{
     width: 85%;
@@ -31,18 +34,19 @@
     align-items: center;
     justify-content: space-between;
 }
-.navbar li{
+
+.navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     position: relative;
 }
-.navbar li a{
+.navbar ul li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
 }
-.navbar li::after{
+.navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
@@ -52,6 +56,6 @@
     bottom: -10px;
     transition: 1s;
 }
-.navbar li:hover::after{
+.navbar ul li:hover::after{
     width: 100%;
 }
